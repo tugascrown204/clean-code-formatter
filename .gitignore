@@ -1,3 +1,5 @@
+# This is a .gitignore file that specifies intentionally untracked files to ignore
+
 # Ignore Node.js dependencies directory
 node_modules/
 
