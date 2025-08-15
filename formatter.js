@@ -1,6 +1,11 @@
 const fs = require('fs');
 const path = require('path');
 
+/**
+ * Formats the code by normalizing whitespace.
+ * @param {string} filePath - The path to the code file to be formatted.
+ * @returns {string} - The formatted code.
+ */
 function formatCode(filePath) {
   const code = fs.readFileSync(filePath, 'utf-8');
   // Example formatting - this should include clean code principles
@@ -8,6 +13,11 @@ function formatCode(filePath) {
   return formattedCode;
 }
 
+/**
+ * Prints a report comparing original and formatted code.
+ * @param {string} originalCode - The original unformatted code.
+ * @param {string} formattedCode - The formatted code.
+ */
 function printReport(originalCode, formattedCode) {
   console.log('--- Original Code ---');
   console.log(originalCode);
