@@ -1,0 +1,16 @@
+{
+  "name": "clean-code-formatter",
+  "version": "1.0.0",
+  "description": "A simple command-line tool that formats code snippets according to clean code principles.",
+  "main": "formatter.js",
+  "bin": {
+    "clean-code-formatter": "formatter.js"
+  },
+  "scripts": {
+    "format": "node formatter.js"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "author": "Your Name",
+  "license": "MIT"
+}
