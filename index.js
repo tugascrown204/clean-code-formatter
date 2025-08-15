@@ -7,4 +7,5 @@ function displayWelcomeMessage() {
     console.log('Welcome to the Clean Code Formatter!');
 }
 
+// Call the main function to display the welcome message
 displayWelcomeMessage();
