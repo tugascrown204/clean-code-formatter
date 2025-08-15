@@ -2,4 +2,9 @@
 
 // This can include language-specific formatters or helper functions.
 
-console.log('Welcome to the Clean Code Formatter!');
+// Main function to display welcome message
+function displayWelcomeMessage() {
+    console.log('Welcome to the Clean Code Formatter!');
+}
+
+displayWelcomeMessage();
