@@ -12,5 +12,6 @@
   "dependencies": {},
   "devDependencies": {},
   "author": "Your Name",
-  "license": "MIT"
+  "license": "MIT",
+  "keywords": ["clean-code", "formatter", "code-formatting", "cli"]
 }
